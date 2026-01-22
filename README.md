@@ -1,4 +1,4 @@
-# ShadowDetectionAttached
+# AttachedShadowDetection
 
 **Physics-Grounded Attached Shadow Detection Using Approximate 3D Geometry and Light Direction**  
 Shilin Hu, Jingyi Xu, Sagnik Das, Dimitris Samaras, Hieu Le  
