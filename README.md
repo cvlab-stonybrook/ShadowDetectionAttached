@@ -29,7 +29,7 @@ The estimated light direction, combined with **surface normals**, produces a geo
 Representative qualitative results on single images:
 
 <figure>
-  <img src="assets/qual.png" alt="Qualitative Results" width="900"/>
+  <img src="assets/qual.png" alt="Qualitative Results" width="80%"/>
   <figcaption><em>Qualitative results on our dataset. From left to right: input image, BDRAR, FSDNet, FDRNet, SILT, Ours and GT prediction (Green: Attached, Red: Cast).</em> </figcaption>
 </figure>
 
@@ -38,9 +38,9 @@ Representative qualitative results on single images:
 Qualitative time-lapse results:
 
 <p align="center">
-  <img src="assets/brick.gif" width="32%" />
-  <img src="assets/pottedplant.gif" width="32%" />
-  <img src="assets/sunclock.gif" width="32%" />
+  <img src="assets/brick.gif" width="60%" /><br/><br/>
+  <img src="assets/pottedplant.gif" width="60%" /><br/><br/>
+  <img src="assets/sunclock.gif" width="60%" />
 </p>
 <p align="center">
   <em>Time-lapse qualitative results (top to bottom): Brick, Potted Plant, Sun Clock.</em>
