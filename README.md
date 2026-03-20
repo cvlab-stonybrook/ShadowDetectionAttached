@@ -1,8 +1,8 @@
 # AttachedShadowDetection
 
-**Physics-Grounded Attached Shadow Detection Using Approximate 3D Geometry and Light Direction**  
+**Cast and Attached Shadow Detection via Iterative Light and Geometry Reasoning**  
 Shilin Hu, Jingyi Xu, Sagnik Das, Dimitris Samaras, Hieu Le  
-arXiv, 2025. [[arXiv](https://arxiv.org/abs/2512.06179)]
+arXiv, 2026. [[arXiv](https://arxiv.org/abs/2512.06179)]
 
 This repository currently provides **qualitative results**.  
 **Code and training/inference instructions will be released in a future update.**
@@ -53,12 +53,12 @@ Qualitative time-lapse results:
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{hu2025physicsgroundedattachedshadowdetection,
-  title         = {Physics-Grounded Attached Shadow Detection Using Approximate 3D Geometry and Light Direction},
-  author        = {Shilin Hu and Jingyi Xu and Sagnik Das and Dimitris Samaras and Hieu Le},
-  year          = {2025},
-  eprint        = {2512.06179},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2512.06179}
+@misc{hu2026castattachedshadowdetection,
+      title={Cast and Attached Shadow Detection via Iterative Light and Geometry Reasoning}, 
+      author={Shilin Hu and Jingyi Xu and Sagnik Das and Dimitris Samaras and Hieu Le},
+      year={2026},
+      eprint={2512.06179},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.06179}, 
 }
