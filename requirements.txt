@@ -1,0 +1,10 @@
+torch==1.13.1
+torchvision==0.14.1
+numpy==1.26.4
+pandas==2.0.3
+Pillow==11.2.1
+opencv-python==4.8.0.76
+kornia==0.7.0
+omegaconf==2.3.0
+tensorboard==2.15.0
+timm==0.6.13

@@ -1,0 +1,36 @@
+paths:
+  data_root: /data/bigeye_bak/shilinlc/data/ECCV_castattached
+  backbone_checkpoint: /data/bigeye_bak/shilinlc/data/SILT_ckpt/PVTb5_SBU.pth
+  output_dir: /data/bigeye_bak/shilinlc/data/SILT_release_runs
+
+experiment_name: attached_shadow_eccv26
+
+model:
+  resolution: 512
+  iterations: 3
+  tau: 0.05
+
+training:
+  seed: 21
+  batch_size: 4
+  epochs: 20
+  learning_rate: 0.0005
+  workers: 2
+  log_every: 100
+
+augmentation:
+  enabled: true
+  layers: 1
+  magnitude: 0.3
+
+loss:
+  segmentation: 0.4
+  type: 0.5
+  light: 0.1
+  dice: 0.1
+  attached_geometry: 0.4
+  direction: 0.5
+  unit: 0.1
+  distinguish: 0.1
+  background_weight: 1.0
+  positive_weight: 2.0

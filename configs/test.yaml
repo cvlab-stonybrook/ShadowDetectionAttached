@@ -1,0 +1,17 @@
+paths:
+  data_root: /data/bigeye_bak/shilinlc/data/ECCV_castattached
+  model_checkpoint: /data/bigeye_bak/shilinlc/data/SILT_result/threenomask_iter3_wseg0.4_wtype0.5_wlit0.1_lit8distinguish_finetune20/weights/83.2304_round1_epoch20.pth
+  output_dir: ./results
+
+model:
+  iterations: 3
+  tau: 0.05
+
+evaluation:
+  protocol: standard
+  resolution: 512
+  workers: 1
+  crop: true
+  crop_size: 2
+  filter_threshold: 0.1
+  save_visuals: true
